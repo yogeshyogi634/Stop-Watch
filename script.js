@@ -63,7 +63,7 @@ const timeCycle = () => {
 //reset timer
 const resetTimer = () => {
   timer.innerHTML = "00:00:00";
-  stopTime = false;
+  stopTime = true;
   hour = 0;
   min = 0;
   sec = 0;
